@@ -1,0 +1,3 @@
+#ADD_SUBDIRECTORY(DicomViewer)
+ADD_SUBDIRECTORY(MedicalImageApplication)
+#ADD_SUBDIRECTORY(MIPViewer)
