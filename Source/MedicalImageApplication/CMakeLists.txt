@@ -10,12 +10,13 @@ IF (WIN32)
 ENDIF(WIN32)
 
 set(file_source_files
-	main.cpp)
+	main.cpp
+	ZQMainWindow.cpp)
 	
 source_group("Source Files" FILES ${file_source_files})
 
 set(file_header_files
-	
+	../../Include/MedicalImageApplication/ZQMainWindow.h
 	)
 	
 source_group("Header Files" FILES ${file_header_files})

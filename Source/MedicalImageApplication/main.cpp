@@ -1,7 +1,14 @@
-
+#include <QApplication>
+#include "../../Include/MedicalImageApplication/ZQMainWindow.h"
 #include <stdio.h>
 
-void main()
+void main(int argc, char *argv[])
 {
-	printf("hello, world\n");
+	QApplication application(argc,argv);
+
+	ZQMainWindow window;
+	window.show();
+
+	application.exec();
+
 }
